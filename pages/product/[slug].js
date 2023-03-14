@@ -3,14 +3,13 @@ import React from "react";
 
 
 const ProductDetails = ({ product, products }) => {
-    // const { image, name, details, price } = product;
+    const { image, name, details, price } = product;
 
   return (
     <div>
       <div className="product-detail-container">
         <div className="image-container">
-          {console.log(product)}
-          {/* <img src={urlFor(image && image[0])} /> */}
+          <img src={urlFor(image && image[0])} />
         </div>
       </div>
     </div>
